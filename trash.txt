@@ -1,0 +1,56 @@
+@media screen and (max-width:480px) {
+    .nav-links{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        font-size: 22px;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 14px;
+    }
+    .hero-text{
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .hero-text .button{
+        margin-top: 0px;
+    }
+    .section1{
+        display: block;
+        padding: 22px 30px;
+    }
+
+    .section1-icon{
+        display: block;
+        margin-top: 40px
+    }
+
+    .card{
+        width: fit-content;
+        text-align: center;
+        border: 2px solid;
+        border-radius: 12px;
+        padding: 18px;
+    }
+
+    .card:hover{
+        background-color: #fff;
+        color: #222257;
+        transition: .8s ease-in-out linear;
+    }
+
+    .card p i{
+        font-size: 32px;
+    }
+
+    .card h5{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
